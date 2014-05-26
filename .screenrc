@@ -1,0 +1,15 @@
+#
+# look and feel for the bottom two lines.
+#
+hardstatus alwayslastline  
+
+#hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{=kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B}%Y-%m-%d %{W}%c %{g}]'
+
+#hardstatus string "%{.bW}%-w%{.rW}%n %t%{-}%+w %=%{..G} %H %{..Y} %m/%d %C%a " 
+
+hardstatus string '%{g}[%H]%{w}[%=%?%-Lw%?[%n%f %t%?(%u)%?]%?%+Lw%?%?%=]%{m}[%l]%{b}[%y-%m-%d%C %A]'
+#hardstatus string '%{gk}[ %{G}%H %{g}][%= %{w}%?%-w%?%{=b kR}(%{W}[%{Y}%n%{W}] %t%?(%u)%?%{=b kR})%{= kw}%?%+w%?%?%= %{g}][%{Y}%l%{g}]%{=b C}[ %D %d/%M/%Y %c ]%{W}' 
+
+#hardstatus string "%{= kb}[ %{B}%H:$USER %{b}][ %=%{w}%?%-Lw%?%{b}(%{W}%n*%f %t%?(%u)%?%{b})%{w}%?%+Lw%?%?%= %{b}][%{B} %l %{B}%{W}%d.%0m %{b}]"
+
+vbell off
