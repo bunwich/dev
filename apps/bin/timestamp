@@ -1,3 +1,14 @@
 #!/bin/bash
 
-date +%s
+timestamp=`date +%s`
+
+if [ "$#" -gt 0 ]; then
+	for num in "$@"; do
+		temptimestamp=$(($timestamp + ($num * 60)));
+		echo "$num $temptimestamp"
+	done
+else
+	echo $timestamp
+fi
+
+
