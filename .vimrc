@@ -24,3 +24,7 @@ set background=dark
 
 " forces wordwrapped lines to break at spaces instead of midword
 set linebreak
+
+" change vim swap location
+set backupdir=~/apps/temp
+set directory=~/apps/temp
