@@ -1,0 +1,13 @@
+#!/bin/bash
+
+timestamp=`date +%s`
+
+if [ "$#" -ne 1 ]; then	
+	echo 'Usage: unix_timstamp [DATE STRING]'
+	echo '(Use quotes if date string has spaces)'
+	exit
+fi
+
+date -d "$1" "+%s"
+
+echo "Done"
